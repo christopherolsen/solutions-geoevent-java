@@ -1,4 +1,0 @@
-<adapter name="CursorOnTargetOut" label="${com.esri.geoevent.solutions.adapter.cot.cot-adapter.ADAPTER_LABEL}" domain="com.esri.geoevent.solutions.adapter.cot.outbound" type="outbound">
-	<description>${com.esri.geoevent.solutions.adapter.cot.cot-adapter.ADAPTER_DESCRIPTION}</description>
-	<propertyDefinitions/>
-</adapter>
