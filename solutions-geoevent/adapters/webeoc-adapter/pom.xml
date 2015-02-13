@@ -63,7 +63,7 @@
 						<Bundle-ContactAddress>geoeventprocessor@esri.com</Bundle-ContactAddress>
 						<Bundle-Version>${project.version}</Bundle-Version>
 						<AGES-Domain>com.esri.geoevent.solutions.adapter</AGES-Domain>
-						<Export-Package/>
+						<Export-Package>javax.xml.rpc</Export-Package>
 						<Private-Package>com.esri.geoevent.solutions.adapter.webeoc</Private-Package>
 					</instructions>
 				</configuration>

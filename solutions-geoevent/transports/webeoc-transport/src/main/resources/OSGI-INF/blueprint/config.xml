@@ -3,9 +3,9 @@
 	<bean id="webEOCInboundTransportServiceBean" class="com.esri.geoevent.solutions.transport.webeoc.WebEOCInboundTransportService" activation="eager">
 		<property name="bundleContext" ref="blueprintBundleContext"/>
 	</bean>
-	<bean id="webEOCOutboundTransportServiceBean" class="com.esri.geoevent.solutions.transport.webeoc.WebEOCOutboundTransportService" activation="eager">
+	<!-- <bean id="webEOCOutboundTransportServiceBean" class="com.esri.geoevent.solutions.transport.webeoc.WebEOCOutboundTransportService" activation="eager">
 		<property name="bundleContext" ref="blueprintBundleContext"/>
-	</bean>
+	</bean>-->
 	<service id="webEOCInboundTransportService" ref="webEOCInboundTransportServiceBean" interface="com.esri.ges.transport.TransportService"/>
-	<service id="webEOCOutboundTransportService" ref="webEOCOutboundTransportServiceBean" interface="com.esri.ges.transport.TransportService"/>
+	<!-- <service id="webEOCOutboundTransportService" ref="webEOCOutboundTransportServiceBean" interface="com.esri.ges.transport.TransportService"/>-->
 </blueprint>

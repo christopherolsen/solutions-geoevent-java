@@ -649,9 +649,9 @@
 								<s:sequence>
 									<s:any minOccurs="0" maxOccurs="unbounded"
 										namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
-									<s:any minOccurs="1"
+									<!--  <s:any minOccurs="1"
 										namespace="urn:schemas-microsoft-com:xml-diffgram-v1"
-										processContents="lax" />
+										processContents="lax" />-->
 								</s:sequence>
 							</s:complexType>
 						</s:element>
@@ -676,9 +676,9 @@
 								<s:sequence>
 									<s:any minOccurs="0" maxOccurs="unbounded"
 										namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
-									<s:any minOccurs="1"
+									<!--  <s:any minOccurs="1"
 										namespace="urn:schemas-microsoft-com:xml-diffgram-v1"
-										processContents="lax" />
+										processContents="lax" />-->
 								</s:sequence>
 							</s:complexType>
 						</s:element>
@@ -704,9 +704,9 @@
 								<s:sequence>
 									<s:any minOccurs="0" maxOccurs="unbounded"
 										namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
-									<s:any minOccurs="1"
+									<!-- <s:any minOccurs="1"
 										namespace="urn:schemas-microsoft-com:xml-diffgram-v1"
-										processContents="lax" />
+										processContents="lax" />-->
 								</s:sequence>
 							</s:complexType>
 						</s:element>
