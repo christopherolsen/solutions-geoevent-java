@@ -19,11 +19,11 @@
 		<propertyDefinition propertyName="x"
 			label="${com.esri.geoevent.solutions.adapter.webeoc.webeoc-adapter.LBL_GEOMETRY_X}"
 			description="${com.esri.geoevent.solutions.adapter.webeoc.webeoc-adapter.DESC_GEOMETRY_X}}"
-			propertyType="String" default=false mandatory="true" readOnly="false" dependsOn="hasGeometry=true"/>
+			propertyType="String" default="" mandatory="true" readOnly="false" dependsOn="hasGeometry=true"/>
 		<propertyDefinition propertyName="y"
 			label="${com.esri.geoevent.solutions.adapter.webeoc.webeoc-adapter.LBL_GEOMETRY_Y}"
 			description="${com.esri.geoevent.solutions.adapter.webeoc.webeoc-adapter.DESC_GEOMETRY_Y}}"
-			propertyType="String" default=false mandatory="true" readOnly="false" dependsOn="hasGeometry=true/>
+			propertyType="String" default="" mandatory="true" readOnly="false" dependsOn="hasGeometry=true"/>
 		<propertyDefinition propertyName="useGeocoding"
 			label="${com.esri.geoevent.solutions.adapter.webeoc.webeoc-adapter.LBL_USE_GEOCODING}"
 			description="${com.esri.geoevent.solutions.adapter.webeoc.webeoc-adapter.DESC_USE_GEOCODING}}"
